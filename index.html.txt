@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>بی سیمی | فروشگاه تخصصی بی‌سیم</title>
+    <style>
+        body {
+            margin: 0; font-family: Tahoma, sans-serif;
+            background-color: #000; color: #fff;
+        }
+        header {
+            background-color: #006400; padding: 20px; text-align: center;
+        }
+        header h1 {
+            margin: 0; font-size: 2.5rem;
+        }
+        .intro {
+            padding: 30px; text-align: center;
+        }
+        .products {
+            display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 20px;
+        }
+        .product {
+            background-color: #111; border: 2px solid #006400; border-radius: 10px;
+            width: 300px; padding: 20px; text-align: center;
+        }
+        .product img {
+            width: 100%; border-radius: 8px;
+        }
+        .contact {
+            text-align: center; padding: 30px; background-color: #006400;
+        }
+        .contact a {
+            color: white; font-size: 1.2rem; text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>فروشگاه بی سیمی</h1>
+    </header>
+
+    <section class="intro">
+        <p>به فروشگاه بی‌سیمی خوش آمدید. فروش تخصصی انواع بی‌سیم پلیسی، دیجیتال و لوازم جانبی.</p>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Walkie-talkie_3G_1.jpg/320px-Walkie-talkie_3G_1.jpg" alt="بیسیم پلیسی" />
+            <h3>بیسیم پلیسی مدل حرفه‌ای</h3>
+            <p>برد بالا، کیفیت عالی، مناسب نیروهای امنیتی و شخصی.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <p>سفارش از طریق واتساپ: <a href="https://wa.me/989123456789" target="_blank">پیام دهید</a></p>
+    </section>
+</body>
+</html>
